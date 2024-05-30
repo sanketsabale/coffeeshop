@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import { createBrowserRouter  , RouterProvider} from 'react-router-dom';
+import {Home} from './View/Home/home'
 
 const routes=createBrowserRouter([
 
@@ -9,18 +10,22 @@ const routes=createBrowserRouter([
   path : '/' ,
   element: <Home/>
 },
-// {
-//   path : '/' ,
-//   element: <pay/>
-// },
-// {
-//   path : '/' ,
-//   element: <Login/>
-// },
-// {
-//   path : '/' ,
-//   element: <Order/>
-// },
+{
+  path : '/Pay' ,
+  element: <Pay/>
+},
+{
+  path : '/Signin' ,
+  element: <Sigin/>
+},
+{
+  path : '/Order' ,
+  element: <Order/>
+},
+{
+  path : '/Store' ,
+  element: <Store/>
+},
 
 
 ])

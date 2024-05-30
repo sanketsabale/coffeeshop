@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import './Navbar.css';
 
 
-import logo from '../Navbar/logo.png'
+import logo from '../Home/logo.png'
 
 
 

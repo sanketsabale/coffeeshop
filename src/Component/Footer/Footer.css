@@ -1,0 +1,28 @@
+* footer */
+.futter {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    list-style: none;
+    /* color: white; */
+}
+
+.fut {
+    background-color: rgb(37, 50, 41);
+    color: white;
+
+}
+
+.icon {
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+}
+
+.appdiv{
+    display: flex;
+    flex-direction: column
+    ;
+}
