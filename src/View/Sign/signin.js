@@ -1,4 +1,4 @@
-import '../Signin/signin.css'
+import '../Sign/signin.css'
 import img1 from './image/dots.svg'
 import img2 from './image/bgimg.svg'
 import img3 from './image/123.svg'

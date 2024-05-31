@@ -1,4 +1,4 @@
-import '../Store/store.css'
+import '../Store/Store.css'
 import img2 from '../Store/images/search.png'
 import img3 from '../Store/images/location.svg'
 
