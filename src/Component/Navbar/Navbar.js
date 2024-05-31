@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import './Navbar.css';
 
 
-import logo from '../Navbar/logo.png'
+// import logo from '../Navbar/logo.png'
 
 
 
@@ -17,7 +17,7 @@ export function Navbar() {
 
       <nav class='navbar navbar-expand-lg bg-body-tertiary'>
         <div class='container-fluid'>
-          <img src={logo} className='img' />
+          <img src='' className='img' />
 
           <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-expanded="false" aria-label="Toggle navigation">
             <span class='navbar-toggler-icon'></span>
