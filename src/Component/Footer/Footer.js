@@ -1,12 +1,12 @@
 import 'bootstrap/dist/css/bootstrap.css'       
 
 import './footer.css'
-import logo from '../Navbar/logo.png'
-import facebook from './facebook.svg'
-import instagram from './instagram.svg'
-import twitter from './twitter.svg'
-import applestore from './applestore.png'
-import playstore from './playstore.png'
+// import logo from '../Navbar/logo.png'
+// import facebook from './facebook.svg'
+// import instagram from './instagram.svg'
+// import twitter from './twitter.svg'
+// import applestore from './applestore.png'
+import playstore from './image.png'
 
 
 export function Footer() {
@@ -15,7 +15,7 @@ export function Footer() {
         
             <div className="fut">
                 <div class="futter">
-                <img className="icon" src={logo} /> 
+                {/* <img className="icon" src={logo} />  */}
 
                     <div>
                         <ul className="ul">
@@ -62,15 +62,15 @@ export function Footer() {
                     <div >
                         <center>
                             <h3>Social media</h3>
-                            <a> <img className="icon" src={facebook} /></a>
-                            <a> <img className="icon" src={instagram} /></a>
-                            <a> <img className="icon" src={twitter} /></a>
+                            <a> <img className="icon" src='' /></a>
+                            <a> <img className="icon" src='' /></a>
+                            <a> <img className="icon" src='' /></a>
                         </center>
 
                     </div>
                     <div  className='appdiv'>
                        
-                            <a> <img className="iconapp" src={applestore} /></a>
+                            <a> <img className="iconapp" src='' /></a>
                             <a> <img className="iconapp" src={playstore} /></a>
                       
 

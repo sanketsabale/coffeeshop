@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import { Pay } from './View/Pay/pay';
+import { Signin } from './View/Sign/signin';
+import {Store} from './View/Store/Store'
 import { createBrowserRouter  , RouterProvider} from 'react-router-dom';
 import {Home} from './View/Home/home'
 
@@ -16,12 +19,12 @@ const routes=createBrowserRouter([
 },
 {
   path : '/Signin' ,
-  element: <Sigin/>
+  element: <Signin/>
 },
-{
-  path : '/Order' ,
-  element: <Order/>
-},
+// {
+//   path : '/Order' ,
+//   element: <Order/>
+// },
 {
   path : '/Store' ,
   element: <Store/>
