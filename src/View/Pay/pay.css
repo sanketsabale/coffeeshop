@@ -1,0 +1,142 @@
+.main {
+    font-family: SoDoSans_Light, Helvetica, sans-serif !important;
+    margin: 00px 80px;
+    background-color: rgb(249, 249, 249);
+    position: relative;
+}
+
+.p {
+    margin-left: 93px;
+    margin-bottom: 4px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.header {
+    height: 50px;
+    width: 100vw;
+    background-color: #f9f9f9;
+    margin-bottom: 00px;
+    margin-top: 15px;
+    display: flex;
+}
+
+.h2 {
+    color: #1e3932;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 93px;
+}
+
+.h6 {
+    margin-left: 890px;
+    margin-top: 20px;
+    color: #00754a;
+    font-size: .8rem;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+}
+
+.btnn {
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 35px;
+    width: 140px;
+    background-color: #00754a;
+    color: white;
+    border-radius: 40px;
+    border: none;
+}
+
+.box1 {
+    margin-top: 00px;
+    height: 500px;
+    width: 100vw;
+    background-color: #1e3932;
+    /* display: flex; */
+}
+
+.img-1 {
+    margin-top: 250px;
+}
+
+.card1 {
+    height: 260px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    margin-left: 100px;
+    margin-top: -280px;
+}
+
+.cardbody {
+    display: flex;
+}
+
+.img-2 {
+    height: 170px;
+    width: 400px;
+}
+
+.title {
+    font-size: 14px;
+    color: #1e3932;
+    margin: 8px;
+}
+
+.p {
+    font-size: medium;
+    margin-top: -28px;
+    margin-left: 60px;
+}
+
+.price {
+    font-size: 24px;
+    color: #006241;
+    margin-left: 8px;
+    margin-top: 4px;
+    margin-bottom: -1px;
+}
+
+.btnn2 {
+    background-color: #00754a;
+    height: 25px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    margin-left: 180px;
+    margin-top: 10px;
+    
+
+}
+
+.img-4 {
+    height: 17px;
+    width: 390px;
+    margin-top: -5px;
+}
+
+.card2 {
+    margin-left: 270px;
+    margin-top: -132px;
+    height: 270px;
+    width: 410px;
+
+}
+
+
+.box-2{
+    height: 400px;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    margin-top: -160px;
+    border-radius: 20px;
+}
+.img-6{
+    margin-left: 100px;
+    height: 250px;
+    width: 1200px;
+    margin-top: 10px;
+
+}
